@@ -35,7 +35,11 @@
 }
 .navbar{ 
     color: white;
-    background-color: transparent;
+    /* background-color: transparent; */
+    background: linear-gradient(135deg , rgba(255, 255, 255, 0.1), rgba(255, 255, 255,0));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+
 }
 .bg-navbar-scroll{
     background-color: black;
