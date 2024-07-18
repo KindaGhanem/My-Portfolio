@@ -1,5 +1,5 @@
 let typed = new Typed(".auto-type", {
-    strings: ["Designer", "Developer", "Freelancer", "Computer Engineer" , "Master's Degree Student" , "Kinda"],
+    strings: ["Designer", "Developer", "Freelancer", "Computer Engineer" , "Master's Degree Student" , "Kinda Ghanem"],
     typeSpeed: 200,
     backSpeed: 200,
     looped: true,
