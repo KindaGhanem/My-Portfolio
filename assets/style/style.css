@@ -126,9 +126,12 @@
     transition:  width 0.3s linear;
     border-radius: 3px;
 }
+/* .about img{
+    border-radius: 50%;
+} */
 .about h2{
     position: relative;
-    margin: 10px;
+    margin-bottom: 10px;
     font-size: 30px;
 }
 .about h2::after{
