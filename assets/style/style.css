@@ -36,9 +36,10 @@
 .navbar{ 
     color: white;
     /* background-color: transparent; */
-    background: linear-gradient(135deg , rgba(255, 255, 255, 0.1), rgba(255, 255, 255,0));
+    /* background: linear-gradient(135deg , rgba(255, 255, 255, 0.1), rgba(255, 255, 255,0)); */
+    background-color: #fd9eb1;
     backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(20px);
 
 }
 .bg-navbar-scroll{
@@ -339,12 +340,22 @@
     .hero h1 {
         text-align: center;
     }
-    /* .collapse {
-        background-color: black;
-    } */
+
+}
+
+@media (max-width:992px){
+    .navsm{
+        height: 100vh !important;
+        font-size: 20px;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 30px;
+
+    }
     
 
 }
+
 
 @media  (min-width:766px) and (max-width:778px){
     .card3 {
