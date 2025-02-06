@@ -314,6 +314,15 @@
     padding: 50px;
 
 }
+@media (min-width:1500px){
+    .bigSceen{
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
+    }
+
+}
+
 @media (min-width:992px) and (max-width:1200px){
     .hero p {
         text-align: center;
