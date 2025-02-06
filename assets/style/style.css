@@ -97,7 +97,7 @@
     background-size: cover;
     background-attachment: scroll; */
 
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -109,6 +109,7 @@
 .bg-image img{
     width: 100%;
     max-width: 300px;
+    padding-bottom: 30px;
 
 
 }
@@ -340,10 +341,6 @@
 
 
 @media (min-width:779px) and (max-width:991px){
-    .hero img{
-        width: 450px;
-        margin-bottom: 20px;
-    }
     .card3 {
         height:450px;
     }
@@ -373,6 +370,13 @@
 .hero{
     justify-content: center;
     align-items: center;
+}
+
+}
+@media (min-width:830px){
+.hero{
+    height: 100vh;
+
 }
 
 }
