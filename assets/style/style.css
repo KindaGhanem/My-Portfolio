@@ -90,19 +90,21 @@
     outline: 0;
 }
 .hero{
-    /* margin-top: 80px; */
-    background-image: url(./../img/girl.jpg);
+    margin-top: 55px;
+    /* background-image: url(./../img/girl.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: scroll; */
+
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
     position: relative;
-    /* background-color: #fd9eb1; */
+    background-color: #fd9eb1;
 }
 /* .bg-image{
     background-color: #f5f5f2;
@@ -136,7 +138,7 @@
 } */
 .about h2{
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 30px;
 }
 .about h2::after{
@@ -149,7 +151,7 @@
     left: 2px;
 }
 .about p{
-    font-size: 20px;
+    font-size: 18px;
 }
 .card .card-body div i{
     width: max-content;
@@ -407,8 +409,7 @@
         font-size: 30px;
     }
     .hero img{
-        width: 300px;
-        margin-top:50px !important;
+        width: 100%;
     }
     .hero h1 {
         font-size: 40px;
